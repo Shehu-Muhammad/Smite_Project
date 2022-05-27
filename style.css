@@ -1,0 +1,32 @@
+body {
+    background-color: green;
+    color:white;
+    font-weight: bold;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 300px;
+}
+
+button.showHideLegend {
+    width: 50%;
+}
+  
+.hideInfo {
+    display: none;
+}
+    
+.showInfo {
+    display: block;
+}
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      width: 80%;
+      margin-left: 50px;
+    }
+  }
